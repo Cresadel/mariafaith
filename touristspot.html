@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Spot</title>
+    <style> 
+        body {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 30px;   
+            margin-bottom: 30px; 
+            margin-left: 500px;
+            margin-right: 500px;
+            font-family: sans-serif;
+            text-align: justify; 
+            background-color:rgba(131, 197, 131, 0.8);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 3em;
+            margin-top: 20px;
+            font-family: sans-serif;
+        }
+
+        p {
+            font-size: 1em;
+        }
+
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px; 
+            margin-top: 20px; 
+        }
+
+        .image-container img {
+            width: 400px;
+            height: 250px;
+            object-fit: cover; 
+            display: block;
+            border-radius: 40px;
+        }
+
+        .image-box {
+            border: 2px solid #130707;
+            padding: 10px;
+            background-color: #91d4dd;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 40px;
+        }
+
+        .image-box img {
+            margin: 20px auto; 
+        }
+
+        
+        .home-link {
+            font-size: 1.2em;
+            color: #130707;
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: transparent; 
+            border-radius: 5px;
+            margin-bottom: 20px;
+            display: inline-block;
+            text-align: center;
+            position: absolute;
+            top: 20px; 
+            right: 20px; 
+        }
+
+        .home-link:hover {
+            background-color: rgba(109, 102, 102, 0.5);/
+        }
+    </style>
+</head>
+<body>
+    <a href="homepage.html" class="home-link">Home</a>
+
+    <div class="image-container">
+        <div class="image-box">
+            <h1> Baybay Beach</h1>
+            <img src="baybaybeach.jpg" alt="Baybay Beach">
+            <p>Baybay Beach in Kolambugan, Lanao del Norte, is a charming coastal spot known for its inviting brown sand and tranquil atmosphere. 
+                The beach offers a relaxed setting where visitors can enjoy the sun and sea. It's a great place for families and friends to gather, 
+                offering a blend of natural beauty and local culture.</p>
+        </div>
+        
+        <div class="image-box">
+            <h1> Poblacion Beach</h1>
+            <img src="poblacion beach.jpg" alt="Poblacion Beach">
+            <p>The Poblacion Beach in Kolambugan, Lanao del Norte features a small bridge where visitors can take pictures. 
+                The view at this beach is fantastic, especially during sunset.</p>   
+        </div>
+        
+        <div class="image-box">
+            <h1> Dapit Alim</h1>
+            <img src="dapitalim.jpg" alt="Dapit Alim">
+            <p>The Dapit Alim in Simbuco, Kolambugan, Lanao del Norte is a church that serves as a place of prayer for the community. 
+                It is more than just a simple church, as it also features beautiful spots and simple infrastructure for visitors to explore and enjoy.</p>
+        </div>
+        
+    </div>
+</body>
+</html>
